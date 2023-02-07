@@ -1,5 +1,6 @@
 {
     "require": {
+        "adibenc/mapplic-php": "dev-main",
         "melbahja/seo": "^2.1"
     }
 }

@@ -2,6 +2,8 @@
 
 require_once(__DIR__.'/BaseController.php');
 
+use Adibenc\Mapplic\Config;
+
 class Page extends BaseController {
 	 
 	function __construct() {
@@ -12,6 +14,7 @@ class Page extends BaseController {
 	}
 
 	function index() {
+		$c = new Config();
 		$this->template->display("home");
 	}
 }

@@ -151,14 +151,14 @@ $counts = $stats['counts'];
                         </div>
                     </div>
                 </nav>
-                <?php if ($bc1 != 'Home') { ?>
+                <?php if (true) { ?>
                 <div class="container">
 
                     <nav aria-label="breadcrumb ">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="<?= site_url() ?>">Home</a></li>
-                            <li class="breadcrumb-item"><a href="<?= site_url($bc1) ?>"><?= $bc1 ?></a></li>
-                            <li class="breadcrumb-item active" aria-current="page"><?= $bc2 ?></li>
+                            <li class="breadcrumb-item"><a href="<?= site_url(null) ?>"><?= null ?></a></li>
+                            <li class="breadcrumb-item active" aria-current="page"><?= null ?></li>
                         </ol>
                     </nav>
                 </div>
@@ -187,9 +187,9 @@ $counts = $stats['counts'];
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
                                     <div class="text-uppercase-expanded text-xs mb-4">Statistik Pengunjung</div>
-                                    Online : <?= $visitor['online'] ?> Pengunjung <br>
-                                    Bulan ini : <?= $visitor['month'] ?> Pengunjung <br>
-                                    Tahun ini : <?= $visitor['year'] ?> Pengunjung
+                                    Online : <?= null ?> Pengunjung <br>
+                                    Bulan ini : <?= null ?> Pengunjung <br>
+                                    Tahun ini : <?= null ?> Pengunjung
                                 </div>
                             </div>
                         </div>

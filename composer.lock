@@ -4,20 +4,58 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2ac82140c0104d03b60300b38e194f0f",
+    "content-hash": "f43876ff29820b4dcdd3e69ab151c1ef",
     "packages": [
         {
-            "name": "melbahja/seo",
-            "version": "v2.1.0",
+            "name": "adibenc/mapplic-php",
+            "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/melbahja/seo.git",
-                "reference": "0ef0a7c2b7191a3ec034a3291d76401880e28492"
+                "url": "https://github.com/adibenc/mapplic-php.git",
+                "reference": "77ffc9ac3aad9e5e92a46a6a65ec8d11e55b3f62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melbahja/seo/zipball/0ef0a7c2b7191a3ec034a3291d76401880e28492",
-                "reference": "0ef0a7c2b7191a3ec034a3291d76401880e28492",
+                "url": "https://api.github.com/repos/adibenc/mapplic-php/zipball/77ffc9ac3aad9e5e92a46a6a65ec8d11e55b3f62",
+                "reference": "77ffc9ac3aad9e5e92a46a6a65ec8d11e55b3f62",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Adibenc\\Mapplic\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "M Adib zamzam",
+                    "email": "adib35785@mail.ru"
+                }
+            ],
+            "description": "A mapplic js lib for php",
+            "support": {
+                "issues": "https://github.com/adibenc/mapplic-php/issues",
+                "source": "https://github.com/adibenc/mapplic-php/tree/main"
+            },
+            "time": "2023-02-07T07:12:06+00:00"
+        },
+        {
+            "name": "melbahja/seo",
+            "version": "v2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/melbahja/seo.git",
+                "reference": "22b0b3273bf9c8867cadf018e4daa3e426525929"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/melbahja/seo/zipball/22b0b3273bf9c8867cadf018e4daa3e426525929",
+                "reference": "22b0b3273bf9c8867cadf018e4daa3e426525929",
                 "shasum": ""
             },
             "require": {
@@ -62,18 +100,20 @@
             ],
             "support": {
                 "issues": "https://github.com/melbahja/seo/issues",
-                "source": "https://github.com/melbahja/seo/tree/v2.1.0"
+                "source": "https://github.com/melbahja/seo/tree/v2.1.1"
             },
-            "time": "2022-05-31T14:18:06+00:00"
+            "time": "2022-09-11T11:16:07+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "adibenc/mapplic-php": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }

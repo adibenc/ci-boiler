@@ -59,7 +59,7 @@ include_once(__DIR__."/application/helpers/SecretConst.php");
  */
 $cienv = SecretConst::CI_ENV;
 	// define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'production');
-	define('ENVIRONMENT', $cienv == "dev" ? $cienv : 'production');
+	define('ENVIRONMENT', $cienv == "dev" || $cienv == "development" ? 'development' : 'production');
 
 /*
  *---------------------------------------------------------------
